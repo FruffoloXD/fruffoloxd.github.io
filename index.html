@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <!-- Importazione League Spartan (pesi 700-900 per l'effetto "cicciottello") -->
+    <link href="fonts.googleapis.com" rel="stylesheet">
+   
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            font-family: 'League Spartan', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+            /* Aumentato il margine inferiore per spingere la scritta più giù */
+            margin-bottom: 80px;
+        }
+
+        .coming-soon {
+            /* Colore personalizzato */
+            color: #826d6c;
+            /* Font molto spesso ma pulito */
+            font-size: 4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            /* Spaziatura ridotta per accentuare l'effetto "chubby" */
+            letter-spacing: -1px;
+            margin: 0;
+            line-height: 1;
+        }
+
+        /* Ottimizzazione per mobile */
+        @media (max-width: 600px) {
+            .coming-soon {
+                font-size: 2.5rem;
+            }
+            .logo {
+                margin-bottom: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Inserisci qui il link al tuo logo -->
+        <img src="Opera_senza_titolo.png" alt="Logo" class="logo">
+       
+        <h1 class="coming-soon">COMING SOON</h1>
+    </div>
+
+</body>
+</html>
